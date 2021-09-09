@@ -15,7 +15,7 @@ body {
     background-color: black;
     font-family: 'Raleway';
 }
-header {
+.barra {
     background-color: #289ea8;
 }
 footer {
@@ -39,4 +39,7 @@ h1 {
 .titulo-dest {
     font-size: 20px;
     font-weight: bold;
+}
+.card-text {
+    text-align: left;
 }
