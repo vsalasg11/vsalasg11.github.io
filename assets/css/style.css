@@ -1,0 +1,42 @@
+.quienes-somos {
+    display: inline-block;
+    background-color: black;
+}
+.destacados {
+    display: inline-block;
+}
+.icono {
+    background-color: #289ea8;
+    font-size: 30px;
+}
+body {
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-family: 'Raleway';
+}
+header {
+    background-color: #289ea8;
+}
+footer {
+    background-color: #289ea8;
+}
+h1 {
+    border-bottom: solid;
+    border-color: #289ea8;
+    font-weight: 300;
+}
+#favicon {
+    width: 30px;
+    margin-right: 10px;
+}
+.navbar-nav {
+    text-align: right;
+}
+.texto-dest {
+    background-color: #289ea8; 
+}
+.titulo-dest {
+    font-size: 20px;
+    font-weight: bold;
+}
