@@ -48,6 +48,6 @@ h1 {
 .barrafoot {
     display: inline-block;
 }
-html {
+.navbar {
     scroll-behavior: smooth;
 }
