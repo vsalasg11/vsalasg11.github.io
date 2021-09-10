@@ -1,9 +1,3 @@
-var scroll = new SmoothScroll('a[href*="Primera"]', {
+var scroll = new SmoothScroll('a[href*="#"]', {
     speed:200,
 });
-var scroll = new SmoothScroll('a[href*="Segunda"]', {
-    speed:200,
-});
-var scroll = new SmoothScroll('a[href*="Tercera"]', {
-    speed:200,
-})
