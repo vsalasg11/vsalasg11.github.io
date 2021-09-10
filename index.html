@@ -14,12 +14,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="script" href="assets/js/script.js">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
 
 </head>
-
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light fixed-top barra">
@@ -41,13 +39,13 @@
                         <a class="nav-link text-white" href="#Segunda">Destacados</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#Tercera">Contacto</a>
+                        <a class="nav-link text-white" href="#Tercera" data-toggle="tooltip" data-placement="right"
+                        title="Haz click para que te ayudemos en tu aventura">Contacto</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
-
     <section id="carrusel">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
@@ -71,7 +69,7 @@
             </a>
         </div>
     </section>
-    <div id="Primera" class=".d-sm-none .d-md-block">
+    <div id="Primera" class="d-sm-none d-md-block">
         <h1 class="container-fluid pt-5 pb-3">¿Quiénes Somos?</h1>
         <section class="quienes-somos container-fluid">
             <div class="row py-4 px-5">
@@ -181,19 +179,21 @@
             <h1 class="barrafoot px-4">Viajes Chile</h1>
         </div>
         <div class="col-md-6">
-            <i class="fab fa-github barrafoot px-1"></i>
-            <i class="fab fa-linkedin barrafoot px-1"></i>
-            <i class="fab fa-twitter-square barrafoot px-1"></i>
-            <i class="fab fa-facebook-square barrafoot px-1"></i>
+            <a href="#"><i class="fab fa-github barrafoot px-1"></i></a>
+            <a href="#"><i class="fab fa-linkedin barrafoot px-1"></i></a>
+            <a href="#"><i class="fab fa-twitter-square barrafoot px-1"></i></a>
+            <a href="#"><i class="fab fa-facebook-square barrafoot px-1"></i></a>
         </div>
     </footer>
-
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
         crossorigin="anonymous"></script>
+        <script>
+            var scroll = new SmoothScroll('a[href*="#"]');
+        </script>
+        <script src="assets/js/script.js"></script>
 </body>
-
 </html>

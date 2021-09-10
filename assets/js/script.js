@@ -1,3 +1,3 @@
-var scroll = new SmoothScroll('a[href*="#"]', {
-    speed:200,
-});
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
