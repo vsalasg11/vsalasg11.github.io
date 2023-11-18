@@ -10927,3 +10927,8 @@ footer.footer {
 .azul-oscuro {
   background-color: rgb(49,93,118);
 }
+
+.imagen-showcase {
+  width: 100%;
+  height: 100%;
+}
